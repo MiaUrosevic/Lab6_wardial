@@ -1,12 +1,23 @@
-# DPRK Web Server Wardial
+# lab-wardialing
 
-This project scans all IP addresses assigned to the DPRK (`175.45.176.0/22`) and identifies which ones are running web servers.
+This project uses Python and the requests library to check whether hostnames or IP addresses respond like web servers.
 
-![Doctests](https://github.com/MiaUrosevic/Lab6_wardial/actions/workflows/python-tests.yml/badge.svg)
+## Test
 
----
+![test](https://github.com/MiaUrosevic/Lab6_wardial/actions/workflows/test.yml/badge.svg)
 
-## How to Run
+## Example Run
 
 ```bash
+$ python3 -m doctest wardial. py -v
+25 tests in 4
+25 passed.
+Test passed.
+
 $ python3 wardial.py
+scanning 127.0.0.0
+scanning 127.0.0.1
+scanning 127.0.0.2
+scanning 127.0.0.3
+...
+```
