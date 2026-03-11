@@ -2,7 +2,11 @@ name: tests
 
 on:
   push:
+    branches:
+      - main
   pull_request:
+    branches:
+      - main
 
 jobs:
   doctest:
@@ -17,7 +21,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install requests
+      - name: Install dependencies
         run: pip install requests
 
       - name: Run doctests
