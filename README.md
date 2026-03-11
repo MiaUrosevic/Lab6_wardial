@@ -2,7 +2,7 @@
 
 This project uses Python and the requests library to check whether hostnames or IP addresses respond like web servers.
 
-## Test
+## Test Status
 
 ![test](https://github.com/MiaUrosevic/Lab6_wardial/actions/workflows/test.yml/badge.svg)
 
@@ -10,7 +10,6 @@ This project uses Python and the requests library to check whether hostnames or 
 
 ```bash
 $ python3 -m doctest wardial. py -v
-
 
 $ python3 wardial.py
 175.45.176.68
