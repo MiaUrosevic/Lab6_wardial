@@ -6,7 +6,7 @@ This project uses Python and the requests library to check whether hostnames or 
 
 ![test](https://github.com/MiaUrosevic/Lab6_wardial/actions/workflows/test.yml/badge.svg)
 
-## Example Run
+## DPRK Web Servers
 
 ```bash
 $ python3 -m doctest wardial.py -v
