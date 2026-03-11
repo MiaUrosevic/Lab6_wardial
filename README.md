@@ -9,7 +9,7 @@ This project uses Python and the requests library to check whether hostnames or 
 ## Example Run
 
 ```bash
-$ python3 -m doctest wardial. py -v
+$ python3 -m doctest wardial.py -v
 
 $ python3 wardial.py
 175.45.176.68
