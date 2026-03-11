@@ -90,7 +90,7 @@ def enumerate_ips(start_ip, n):
 if __name__ == '__main__':
 
     # FIXME 1: Generate all DPRK IPs
-    dprk_ips = list(enumerate_ips('175.45.176.0', 1024))
+    dprk_ips = list(enumerate_ips('175.45.176.68', 1024))
 
     # FIXME 2: Filter to only IPs with web servers
     dprk_ips_with_servers = []
